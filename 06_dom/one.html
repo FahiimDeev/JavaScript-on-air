@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1 id="title" class="heading">
+            Dom Learning started here <span>heelo here</span>
+        </h1>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+        <ul>
+            <li class="items">one</li>
+            <li class="items">two</li>
+            <li class="items">three</li>
+            <li class="items">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+<!-- on chrome console (inspect)
+    document.getElementById('title').setAttribute('class', 'nowNotHeading')
+undefined
+document.getElementById('title').setAttribute('class', 'nowNotHeading and also heading')
+undefined
+const title = document.getElementById('title')
+undefined
+title
+<h1 id=​"title" class=​"nowNotHeading and also heading">​ Dom Learning started here ​</h1>​
+title.style.backgroundColor = 'red'
+'red'
+title.style.padding = '20px'
+'20px'
+
+title.style.padding = '20px'
+'20px'
+title.style.backgroundColor = 'red'
+'red'
+title.style.padding = '20px'
+'20px'
+title.style.borderRadius = '20px'
+'20px'
+
+
+﻿
+ document.getElementsByClassName('heading')
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+0
+: 
+h1#title.heading
+title
+: 
+h1#title.heading
+length
+: 
+1
+[[Prototype]]
+: 
+HTMLCollection
+
+document.querySelector('ul')
+<ul>​…​</ul>​
+document.querySelector('li')
+<li>​…​</li>​::marker​"one"</li>​
+const turnGreen = document.querySelector('li')
+undefined
+turnGreen.style.backgroundColor = 'green'
+'green'
+turnGreen.style.padding = 15
+15
+turnGreen.style.padding = ('15')
+'15'
+turnGreen.style.padding = "15px"
+'15px'
+turnGreen.innerText
+'one'
+turnGreen.innerText = '' five
+VM424:1 Uncaught SyntaxError: Unexpected identifier 'five'
+turnGreen.innerText = 'five'
+'five'
+
+
+myh2.forEach(function(h) {
+    h.style.color = 'red'
+})
+undefined
+myh2.forEach(function(h) {
+    h.style.color = 'black';
+})
+undefined
+myh2.forEach(function(h) {
+    h.style.color = 'black';
+    h.style.backgroundColor = 'pink';
+})
+undefined
+myh2.forEach(function(h) {
+    h.style.color = 'black';
+    h.style.backgroundColor = 'pink';
+    h.style.padding = '10px';
+})
+undefined
+myh2.forEach(function(h) {
+    h.style.color = 'black';
+    h.style.backgroundColor = 'pink';
+    h.style.padding = '10px';
+})
+undefined
+myh2.forEach(function(h) {
+    h.style.color = 'black';
+    h.style.backgroundColor = 'pink';
+    h.style.padding = '10px';
+    h.style.innerText = 'fahim'
+
+
+ -->
